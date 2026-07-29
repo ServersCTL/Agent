@@ -1,0 +1,44 @@
+ServersCTL Agent Software License
+
+Copyright (c) 2026 ServersCTL. All rights reserved.
+
+This software ("Agent") and any accompanying documentation are proprietary
+to ServersCTL and the BalCTL product line. The Agent is licensed, not sold.
+
+PERMITTED USE
+
+You may install and run the Agent only on servers enrolled through the official
+ServersCTL or BalCTL control plane (including serversctl.com and balctl.com)
+using enrollment credentials issued by that service. The Agent is designed to
+operate exclusively with the authorised ServersCTL/BalCTL API and web UI.
+
+You may view the Agent source published in the official ServersCTL GitHub
+organization (https://github.com/ServersCTL/agent) for transparency and bug
+reporting. That publication does not grant any additional rights to copy,
+distribute, or run the Agent outside enrolled ServersCTL/BalCTL servers.
+
+RESTRICTIONS
+
+You may not modify, adapt, translate, reverse engineer, decompile,
+disassemble, or create derivative works of the Agent, in whole or in part.
+You may not copy, distribute, publish, sublicense, rent, lease, lend, or
+otherwise make the Agent available to any third party except as expressly
+authorised by ServersCTL in writing. You may not use the Agent as a
+standalone product or with any service other than ServersCTL/BalCTL.
+
+OWNERSHIP
+
+ServersCTL retains all right, title, and interest in and to the Agent,
+including all copyrights, patents, trade secrets, and other intellectual
+property rights.
+
+DISCLAIMER
+
+THE AGENT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL
+SERVERSCTL BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN
+CONNECTION WITH THE AGENT OR THE USE OR OTHER DEALINGS IN THE AGENT.
+
+For licensing enquiries: https://serversctl.com/app/support

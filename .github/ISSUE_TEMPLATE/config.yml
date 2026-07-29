@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ServersCTL Support hub
+    url: https://serversctl.com/app/support
+    about: Sales inquiries and account-specific help (requires login)
+  - name: Documentation
+    url: https://docs.serversctl.com/books/getting-started
+    about: Getting started guides and pool walkthroughs

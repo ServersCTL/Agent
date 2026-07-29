@@ -1,0 +1,76 @@
+name: Bug report
+description: Report unexpected panel or agent behavior
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a defect. A ServersCTL account is required to **use** the product, but you only need a GitHub account to open an issue here.
+
+        Prefer including diagnostic logs from the affected server — see the **Diagnostic logs** field below.
+
+  - type: input
+    id: agent_version
+    attributes:
+      label: Agent version
+      description: From panel Settings → Agent updates, or balctl-agent-version.txt on the server
+      placeholder: e.g. 295
+    validations:
+      required: true
+
+  - type: dropdown
+    id: panel_url
+    attributes:
+      label: Panel
+      options:
+        - serversctl.com (production)
+        - staging.serversctl.com
+        - balctl.com
+        - Other / not sure
+    validations:
+      required: true
+
+  - type: input
+    id: pool_type
+    attributes:
+      label: Pool type
+      description: HAProxy, OpenLiteSpeed, Galera, MariaDB, cPanel, Storage, etc.
+      placeholder: e.g. Galera cluster
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What you did, what you expected, and what happened instead
+      placeholder: 1. Open pool … 2. Click … 3. See error …
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostic logs
+      description: Run on the affected server, review output, paste below (remove passwords/tokens if present)
+      value: |
+        sudo bash -lc 'set +e; echo "### Host"; hostnamectl 2>/dev/null || hostname; echo; echo "### balctl service"; systemctl status balctl-heartbeat --no-pager -l 2>&1; echo; echo "### balctl logs"; journalctl -u balctl-heartbeat --no-pager -n 300 2>&1; echo; echo "### agent files"; ls -lah /etc/balctl /usr/local/bin/balctl_heartbeat.py 2>&1; echo; echo "### disk"; df -h / /tmp /home 2>&1'
+    validations:
+      required: true
+
+  - type: input
+    id: account_email
+    attributes:
+      label: ServersCTL account email (optional)
+      description: Only if you want us to follow up on your account — not required to file an issue
+      placeholder: you@example.com
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: I removed passwords, API tokens, and private keys from the logs above
+          required: true
