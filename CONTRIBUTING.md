@@ -4,7 +4,9 @@ Thank you for helping improve ServersCTL.
 
 ## Bug reports
 
-Open a **[GitHub issue](https://github.com/ServersCTL/agent/issues/new?template=bug_report)** with:
+**Preferred:** use the ServersCTL panel — **Support hub → Bug reports** at [serversctl.com/app/support/bugs](https://serversctl.com/app/support/bugs) (no GitHub account required).
+
+**Optional:** open a **[GitHub issue](https://github.com/ServersCTL/Agent/issues/new?template=bug_report)** if you already use GitHub. Include:
 
 - Agent version (from the panel **Settings → Agent updates** card or `balctl-agent-version.txt` on the server)
 - Pool type (HAProxy, OpenLiteSpeed, Galera, cPanel, etc.)
@@ -13,7 +15,7 @@ Open a **[GitHub issue](https://github.com/ServersCTL/agent/issues/new?template=
 
 ## Using the agent
 
-Running the agent requires enrollment through [serversctl.com](https://serversctl.com) (or [balctl.com](https://balctl.com) for HAProxy pools). Community and Pro plans both include documentation and GitHub bug reporting.
+Running the agent requires enrollment through [serversctl.com](https://serversctl.com) (or [balctl.com](https://balctl.com) for HAProxy pools). Community and Pro plans both include documentation and in-app bug reports.
 
 ## Code changes
 

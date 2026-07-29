@@ -7,9 +7,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a defect. A ServersCTL account is required to **use** the product, but you only need a GitHub account to open an issue here.
+        Thanks for reporting a defect.
 
-        Prefer including diagnostic logs from the affected server — see the **Diagnostic logs** field below.
+        **No GitHub account?** Use the ServersCTL panel instead: [Support hub → Bug reports](https://serversctl.com/app/support/bugs).
+
+        If you are filing here, include diagnostic logs from the affected server — see the **Diagnostic logs** field below.
 
   - type: input
     id: agent_version

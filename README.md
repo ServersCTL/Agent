@@ -6,9 +6,9 @@ Public source mirror of the ServersCTL VM agent (heartbeat client, job runner, a
 
 ## Bug reports
 
-Report defects on **[GitHub Issues](https://github.com/ServersCTL/agent/issues/new?template=bug_report)** (preferred). Include agent version, pool type, steps to reproduce, and diagnostic logs from the affected server.
+Report defects from the ServersCTL panel: **Support hub → Bug reports** ([serversctl.com/app/support/bugs](https://serversctl.com/app/support/bugs)). No GitHub account required — include agent version, pool type, steps to reproduce, and diagnostic logs from the affected server.
 
-You can also use the in-app Support hub (**Report a bug** fallback form) when you cannot use GitHub.
+Optional: if you already use GitHub, you may also open an issue on **[GitHub Issues](https://github.com/ServersCTL/Agent/issues/new?template=bug_report)**.
 
 ## Install
 
