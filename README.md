@@ -12,8 +12,6 @@ You can also use the in-app Support hub (**Report a bug** fallback form) when yo
 
 ## Install
 
-Full documentation - https://docs.serversctl.com/books/getting-started
-
 1. Create a pool and enroll the server from the ServersCTL panel.
 2. Run the install command shown on the member **Agent** tab.
 
@@ -22,4 +20,4 @@ Official production builds are distributed from the ServersCTL CDN (`download.se
 ## Repository policy
 
 - **Issues:** welcome — use the bug report template.
-- **Pull requests:** not accepted on this mirror.
+- **Pull requests:** not accepted on this mirror; development happens in the private ServersCTL monorepo.
